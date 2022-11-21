@@ -24,3 +24,13 @@ plt.imshow(image)
 cbar=plt.colorbar()
 cbar.set_label("Kelvin")
 plt.show()
+
+
+import cartopy.crs as ccrs
+import cartopy.feature as cfeature
+
+country_borders = cfeature.NaturalEarthFeature(
+    category='cultural',
+    name='‘admin_0_boundary_lines_land',
+    scale='50m',
+    facecolor='none')
