@@ -1,4 +1,9 @@
 #obtained from https://github.com/gSasikala/ftp-himawari8-hsd/blob/main/examples/Processing_Satellite_Imagery.ipynb
+#and https://github.com/ZPYin/Himawari-8_Visualizer/tree/master/notebook
+
+#install package satpy pake conda di environment baru conda create -c conda-forge -n my_satpy_env python satpy
+#install cartopy sebelumnya install dulu pyproj dan shapely lewat pipwin
+
 
 import glob
 from satpy import Scene
